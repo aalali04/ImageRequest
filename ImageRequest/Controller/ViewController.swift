@@ -35,7 +35,10 @@ class ViewController: UIViewController {
                 return
             }
             let downloadedImage = UIImage(data: data)
-            self.imageView.image = downloadedImage
+            
+            DispatchQueue.main.async {
+                self.imageView.image = downloadedImage
+            }
         }
         task.resume()
     }

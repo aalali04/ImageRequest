@@ -42,7 +42,6 @@
                     </view>
                     <connections>
                         <outlet property="imageView" destination="7vz-bV-oAp" id="2vN-IT-zfq"/>
-                        <outlet property="loadImage" destination="jFK-qM-ilU" id="iDL-j0-B0M"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
