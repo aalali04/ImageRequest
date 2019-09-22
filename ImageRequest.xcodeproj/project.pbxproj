@@ -54,14 +54,30 @@
 		27024F5B23375F30001A2838 /* ImageRequest */ = {
 			isa = PBXGroup;
 			children = (
-				27024F5C23375F30001A2838 /* AppDelegate.swift */,
-				27024F5E23375F30001A2838 /* ViewController.swift */,
-				27024F6023375F30001A2838 /* Main.storyboard */,
-				27024F6323375F44001A2838 /* Assets.xcassets */,
-				27024F6523375F44001A2838 /* LaunchScreen.storyboard */,
+				27024F6F2337618D001A2838 /* Controller */,
+				27024F6E23376179001A2838 /* View */,
 				27024F6823375F44001A2838 /* Info.plist */,
 			);
 			path = ImageRequest;
+			sourceTree = "<group>";
+		};
+		27024F6E23376179001A2838 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				27024F6023375F30001A2838 /* Main.storyboard */,
+				27024F6323375F44001A2838 /* Assets.xcassets */,
+				27024F6523375F44001A2838 /* LaunchScreen.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		27024F6F2337618D001A2838 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				27024F5C23375F30001A2838 /* AppDelegate.swift */,
+				27024F5E23375F30001A2838 /* ViewController.swift */,
+			);
+			path = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
